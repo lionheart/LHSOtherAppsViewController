@@ -9,6 +9,6 @@
 
 @interface LHSOtherAppsViewController : UITableViewController
 
-@property (nonatomic, strong) NSString developerURL;
+@property (nonatomic, strong) NSString *developerURL;
 
 @end
