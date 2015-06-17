@@ -31,7 +31,7 @@ static NSString * CellIdentifier = @"CellIdentifier";
 
     self.apps = [NSMutableArray array];
     
-    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://itunes.apple.com/lookup?id=548052593&entity=software"]];
+    NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:self.developerURL]];
     
     [NSURLConnection sendAsynchronousRequest:request
                                        queue:[NSOperationQueue mainQueue]
