@@ -1,0 +1,25 @@
+{
+  "name": "LHSOtherAppsViewController",
+  "version": "0.1.0",
+  "summary": "A short description of LHSOtherAppsViewController.",
+  "description": "                       An optional longer description of LHSOtherAppsViewController\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/LHSOtherAppsViewController",
+  "license": "MIT",
+  "authors": {
+    "Eric Olszewski": "eolszewski@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/LHSOtherAppsViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "LHSOtherAppsViewController": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
