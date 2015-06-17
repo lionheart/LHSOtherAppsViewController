@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LHSOtherAppsViewController"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A table view controller used to showcase your other apps."
   s.homepage     = "http://lionheartsw.com"
   s.license      = 'Apache 2.0'
